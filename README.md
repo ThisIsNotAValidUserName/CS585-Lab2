@@ -6,5 +6,4 @@ Solution for BU CS585 Lab2 <br>
 3. For each shape blob, classify its border pixels (in other words, segment its outermost contour) into three types: borders against the background, borders against another shape blob and borders that are a border of the whole image. <br>
 4. (Optional) You may also segment the border according to their convexity, i.e. find out all convex segments and concave segments. This may help you analyze its shape type. <br>
 5. For each shape blob, come up with an algorithm that can recognize its shape type (square, circle, or triangle). <br>
-<br>
-The code is written in C++
+The code is written in C++ with OpenCV 3.3.0
